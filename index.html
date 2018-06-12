@@ -14,21 +14,42 @@
         crossorigin="anonymous">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" src="../Crystal-Collector/assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
 
 <body>
         <div class="container-fluid">
             <div class="jumbotron jumbotron-fluid">
                 <h1 class="display-4 text-center">Trivia Game</h1>
+                    <p class="lead text-center">Answer the next 5 questions to prove your knowledge. </br> You must answer each question before the timer ends</p>
+                        <div class="row">
+                            <div class="col-12 mx-auto text-center">
+                                <button type="button" class="btn btn-outline-dark mx-auto" id="start"><strong>START</strong></button>
+                            </div>
 
+                            <div class="col-3 mx-auto">
+                                <div class="card" id="timerHolder">
+                                    <div class="card-body text-center" id="timer">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
             </div>
 
-            
+            <div class="col-8 mx-auto">
+                <div class="card" id="questionSet">
+                    <div class="card-header text-center" id="questionHolder">
+                    </div>
+                    <div class="answerChoices">
+                    </div>
+                </div>
             </div>
+        
+        </div>
 
 </body>
-    <script src="assets/javascript/game.js"></script>
+    <script src="assets/javascript/app.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
 

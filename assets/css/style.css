@@ -1,0 +1,26 @@
+#timer { 
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px;
+    border: solid; 
+    border-width: 1px;
+}
+
+body { 
+    background-color: black;
+}
+
+.jumbotron { 
+    padding: 10px;
+}
+
+#start { 
+    font-size: 20px;
+}
+
+#questionHolder { 
+   font-weight: 600;
+   font-size: 23px;
+   background-color: darkgrey;
+}
+
